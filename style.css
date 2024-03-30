@@ -1,0 +1,248 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 70, 92);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: rgb(2, 47, 61);
+    min-height: 50px;
+}
+
+/*LOGO---------------------------------------------*/
+.box-img-header{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 60px;
+    height: 100%;
+}
+
+/*BARRA DE MENU---------------------------------------------*/
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links:hover{
+    color: rgb(20, 179, 228);
+    transition: .4s;
+    text-decoration: none;
+
+}
+
+/*BOTAO---------------------------------------------*/
+.box-btn-actions{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-action{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-action:hover{
+    background-color: rgb(20, 179, 228);
+    border: 1px solid white;
+}
+
+/*TEXTO PRINCIPAL---------------------------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.first-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    min-width: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 4px;
+    margin: 0 auto;
+}
+
+strong{
+    color: cyan;
+}
+
+.first-section p{
+    color: white;
+    font-size: 18px;
+}
+
+/*BOTAO SAIBA MAIS---------------------------------------------*/
+.link-action{
+    width: 80px;
+    margin-top: -15px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(2, 47, 61);
+}
+
+/*IMAGEM---------------------------------------------*/
+.box-btn-main{
+    max-width: 450px;
+    padding: 1rem;
+}
+
+.img-profile{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/*SEÇÃO DE EXPERIENCIA---------------------------------------------*/
+
+.second-section{
+    background-color: rgb(2, 47, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+.second-section ul{
+    list-style: none;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.second-section ul li{
+    color: cyan;
+}
+
+.second-section ul li:hover{
+    color: white;
+    transition: .4s;
+    cursor: default;
+}
+
+.title{
+    color: white;
+}
+
+/*QUEM SOU EU---------------------------------------------*/
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.third-section h2{
+    color: white;
+   margin-left: 200px;
+   padding: 0 auto;
+}
+
+.third-section > div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-section > div img{
+    width: 400px;
+    border-radius: 40px;
+}
+
+.third-section > div p{
+    max-width: 600px;
+    color: white;
+    text-align: justify;
+}
+
+/*SEÇÃO DE PROJETOS GITHUB---------------------------------------------*/
+
+.fourth-section{
+    background-color: rgb(2, 47, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.fourth-section h2{
+    color: white;
+}
+
+.fourth-section p{
+    color: cyan;
+}
+
+/*FOOTER---------------------------------------------*/
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;    
+}
+
+footer h2{
+    color: white;
+}
